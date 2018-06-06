@@ -1,16 +1,18 @@
-## resnet_cifar10_pytorch
+# resnet_cifar10_pytorch
 
 > tinyalpha	
 >
 > tinyalpha@protonmail.com
 
-#### training
+### training
 
 * run `python3 train.py`
 * it takes tens of minutes to train on titan x (pascal)
 * there are weights and logs I have trained in `bak`
 
-#### results
+### results
+
+* I have only trained a 32 layers' model (n = 5)
 
 * it can get at most 92.79% accuracy with the default hyperparameters, which is slight higher than the [origin paper](https://arxiv.org/abs/1512.03385)'s result (92.49%)
 
@@ -18,7 +20,7 @@
 
   ![curve](bak/curve.png)
 
-#### dependency
+### dependency
 
 * python 3.6.5
 * pytorch 0.4.0
